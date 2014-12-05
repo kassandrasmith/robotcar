@@ -1,8 +1,8 @@
 #define LEFTBUMPER A0
 #define RIGHTBUMPER A1
-#define LEFTPHOTO A4
+#define LEFTPHOTO A2
 #define CENTERPHOTO A3
-#define RIGHTPHOTO A2
+#define RIGHTPHOTO A4
 #define FRONTBUMPER A5
 #define ENABLE1 7
 #define ENABLE2 12
@@ -17,6 +17,7 @@
 #define DANGEROUS_BUMPER_LEVEL 280
 // the setup function runs once when you press reset or power the board
 void setup() {
+  
   pinMode(ENABLE1, OUTPUT);
   pinMode(ENABLE2, OUTPUT);
   pinMode(FORWARD1, OUTPUT);
